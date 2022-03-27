@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{147FEAAA-9A03-4B69-B70A-FA47C2F3E0DF}|Default">
+  <MonoDevelop.Ide.ItemProperties.MagicWeaponList PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MagicWeaponList/wwwroot/js/site.js">
+    <Files>
+      <File FileName="MagicWeaponList/Pages/Index.cshtml" Line="14" Column="7" />
+      <File FileName="MagicWeaponList/Repositories/WeaponRepository.cs" Line="1" Column="1" />
+      <File FileName="MagicWeaponList/DTOs/WeaponSearchRequest.cs" Line="10" Column="35" />
+      <File FileName="MagicWeaponList/Models/Weapon.cs" />
+      <File FileName="MagicWeaponList/wwwroot/js/site.js" Line="89" Column="8" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MagicWeaponList" expanded="True">
+            <Node name="MagicWeaponList" expanded="True">
+              <Node name="DTOs" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Shared" expanded="True" />
+                <Node name="Index.cshtml" expanded="True" />
+              </Node>
+              <Node name="Repositories" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="js" expanded="True">
+                  <Node name="site.js" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

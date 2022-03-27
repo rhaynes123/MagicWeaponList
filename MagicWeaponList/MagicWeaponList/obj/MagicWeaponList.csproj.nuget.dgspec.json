@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/richardhaynes/Developer/RichQualityDevelopment/MagicWeaponList/MagicWeaponList/MagicWeaponList/MagicWeaponList.csproj": {}
+  },
+  "projects": {
+    "/Users/richardhaynes/Developer/RichQualityDevelopment/MagicWeaponList/MagicWeaponList/MagicWeaponList/MagicWeaponList.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/richardhaynes/Developer/RichQualityDevelopment/MagicWeaponList/MagicWeaponList/MagicWeaponList/MagicWeaponList.csproj",
+        "projectName": "MagicWeaponList",
+        "projectPath": "/Users/richardhaynes/Developer/RichQualityDevelopment/MagicWeaponList/MagicWeaponList/MagicWeaponList/MagicWeaponList.csproj",
+        "packagesPath": "/Users/richardhaynes/.nuget/packages/",
+        "outputPath": "/Users/richardhaynes/Developer/RichQualityDevelopment/MagicWeaponList/MagicWeaponList/MagicWeaponList/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/richardhaynes/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

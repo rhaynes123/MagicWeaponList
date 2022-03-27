@@ -1,0 +1,61 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@Html.AntiForgeryToken()
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<div class="pull-right">
+    <button id="btnSearch" class="btn btn-success">Search..</button>
+</div>
+<div class="text-center">
+    
+    <table id="tblWeapons" class="table table-bordered">
+        
+        <thead class="thead-dark">
+            <tr>
+                <th><input id="weaponId" name="weaponId" placeholder="#" /></th>
+                <th><input id="weaponName" name="weaponName" placeholder="Name" /></th>
+                <th><input id="description" name="description" placeholder="Descripton"/></th>
+                <th>
+                    <select id="weaponCategory" name="weaponCategory" asp-items="Html.GetEnumSelectList<MagicWeaponList.Models.Enums.Category>()">
+                        <option>Category..</option>
+                    </select>
+                </th>
+                <th><input id="attkPoints" name="attkPoints" placeholder="Attk" /></th>
+                <th><input id="dfsPoints" name="dfsPoints" placeholder="Dfs" /></th>
+                <th>
+                    <select id="weaponDamage" name="weaponDamage" asp-items="Html.GetEnumSelectList<MagicWeaponList.Models.Enums.DamageType>()">
+                        <option>DamageType..</option>
+                    </select>
+                </th>
+                <th>Details</th>
+            </tr>
+        </thead>
+        <tbody id="tblWeaponsBody">
+            @if (Model.Weapons is not null && Model.Weapons.Any())
+            {
+                @foreach (var weapon in Model.Weapons)
+                {
+                    <tr>
+                        <td>@weapon.Id</td>
+                        <td>@weapon.Name</td>
+                        <td>@weapon.Description</td>
+                        <td>@weapon.Category</td>
+                        <td>@weapon.AttackPoints</td>
+                        <td>@weapon.DefensePoints</td>
+                        <td></td>
+                        <td>
+                            <button id="btnWeaponDetails" type="submit" class="btn btn-info">View Details</button>
+                        </td>
+                    </tr>
+                }
+            }
+
+        </tbody>
+    </table>
+</div>
